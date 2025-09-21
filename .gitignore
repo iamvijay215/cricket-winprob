@@ -1,0 +1,26 @@
+# Ignore raw data
+data/raw/*
+!data/raw/README.md
+
+# Ignore processed data
+data/processed/*
+!data/processed/README.md
+
+# Ignore models
+models/*
+!models/README.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+env/
