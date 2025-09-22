@@ -9,7 +9,8 @@ data/processed/*
 # Ignore models
 models/*
 !models/README.md
-
+!data/processed/matches_clean.csv
+!data/processed/deliveries_clean.csv
 # Python cache
 __pycache__/
 *.pyc
