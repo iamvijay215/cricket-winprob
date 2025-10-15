@@ -9,6 +9,9 @@ data/processed/*
 # Ignore models
 models/*
 !models/README.md
+# Allow model artifacts
+!models/*.pkl
+!models/*.json
 !data/processed/matches_clean.csv
 !data/processed/deliveries_clean.csv
 # Python cache
@@ -16,8 +19,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.pkl
-*.joblib
 
 # Jupyter
 .ipynb_checkpoints/
@@ -26,3 +27,7 @@ __pycache__/
 .venv/
 env/
 .DS_Store
+
+# Ensure models are tracked
+!models/*.pkl
+!models/*.json
